@@ -1,0 +1,110 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>IS217_final_SSAS</Database>
+    <Server>ASUS\SQLSERVER</Server>
+    <ConnectionString>Data Source=ASUS\SQLSERVER;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>/3YQaW0a5lWFznLkkRf69sKjQIQ=13-May-24 9:21:17 PM13-May-24 9:21:17 PM</TimeStamp>
+        <ID>
+          <String>STUDENTSCORE</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>iQMwqk+pRyDivsp3/QW9ZgoPiVU=13-May-24 9:21:26 PM13-May-24 9:21:26 PM</TimeStamp>
+        <ID>
+          <String>STUDENTSCORE</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>H1dFl9/hFR4WyozWL6UYmatjEcs=13-May-24 9:26:18 PM13-May-24 9:25:48 PM</TimeStamp>
+        <ID>
+          <String>DIM SCORE</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Ey+xPBu1eA6NJn7dsX/CI5yf2QQ=13-May-24 9:26:36 PM13-May-24 9:25:48 PM</TimeStamp>
+        <ID>
+          <String>DIM FAMILY</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>CS23w3VVxJMr4pVD1Tnr0DVZyaM=13-May-24 9:27:07 PM13-May-24 9:25:48 PM</TimeStamp>
+        <ID>
+          <String>DIM HEALTH</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>GQC3kISpcTE1fjvJDrMQP179f08=13-May-24 9:27:26 PM13-May-24 9:25:48 PM</TimeStamp>
+        <ID>
+          <String>DIM SCHOOLCHOICE</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Le2X22eGD/1f38pIIqKzZh9SHoE=13-May-24 9:32:58 PM13-May-24 9:25:48 PM</TimeStamp>
+        <ID>
+          <String>DIM STUDENT</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>m+oUR792aKdlUmeaMxjk0KxTRSs=13-May-24 9:28:15 PM13-May-24 9:25:48 PM</TimeStamp>
+        <ID>
+          <String>DIM SUPPORT</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>YRuQJl6jToc6Wd5BfbI6HYhHYl8=13-May-24 9:28:36 PM13-May-24 9:25:48 PM</TimeStamp>
+        <ID>
+          <String>DIM SCHOOL</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>EN0tXsyhXkvnc4alT1uhVC6IVTw=13-May-24 9:28:55 PM13-May-24 9:25:48 PM</TimeStamp>
+        <ID>
+          <String>DIM ACTIVITY</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>epa+U+8UOcwFVgcKyuFW83bbysE=16-May-24 10:49:25 AM13-May-24 9:25:48 PM3lWrSM5Jr8VReLfG6aHeZtKqVos=16-May-24 10:43:51 AM13-May-24 9:25:48 PM</TimeStamp>
+        <ID>
+          <String>STUDENTSCORE</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>RUhIjLGgAju2hjDKbZkhuVvdOnw=08-May-24 7:48:34 AM08-May-24 7:48:34 AM</TimeStamp>
+      <ID>
+        <String>IS217_final_SSAS</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-05-16T03:49:47.71Z</LastDeployed>
+</DeploymentSnapshot>

@@ -1,0 +1,244 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="8397979f-57ee-4e95-8369-daaec84bd20e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DIM ACTIVITY</ID>
+  <Name>DIM ACTIVITY</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2131" scrolltop="-6551" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7303" y="16849" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_ACTIVITY" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="3747" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000a30e0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DIM_ACTIVITY" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2131</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6551</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="c2b02a0d-91e8-459c-af72-c3f27a29e3f2">
+    <DataSourceViewID>STUDENTSCORE</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="a2877935-421c-435e-b338-ae09608b9d9b">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="4a8eab0c-1b26-47a6-9356-9e29691e4bde">
+      <ID>Actid</ID>
+      <Name>Actid</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4718db90-ad81-40b2-abd1-4ba52f988f81">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="02c7db6b-89b5-4a02-be08-3e0d37dded00">
+            <TableID>dbo_DIM_ACTIVITY</TableID>
+            <ColumnID>actid</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="435a5751-a8e6-4a5c-8f07-76362f4a46d9">
+          <AttributeID>Activities</AttributeID>
+          <Name>Activities</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8c775ba1-0c7e-46c9-a605-14ce53626117">
+          <AttributeID>Nursery</AttributeID>
+          <Name>Nursery</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e7329fdc-1768-4705-b0c3-1dc4c9fa7cf0">
+          <AttributeID>Higher</AttributeID>
+          <Name>Higher</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c0bf8872-3f2b-4db4-9670-33edd2473dd9">
+          <AttributeID>Internet</AttributeID>
+          <Name>Internet</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="63cfcf27-de9e-4377-9bab-b83911ef4fa4">
+          <AttributeID>Romantic</AttributeID>
+          <Name>Romantic</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="19e1b975-47b4-437a-b9f4-091ddc76691f">
+          <AttributeID>Freetime</AttributeID>
+          <Name>Freetime</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5d6216d0-6f17-455c-becb-311c811cd8cd">
+          <AttributeID>Goout</AttributeID>
+          <Name>Goout</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8067f3f4-e4c7-4ded-9ef0-3a67e1703b66">
+      <ID>Activities</ID>
+      <Name>Activities</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cacd762f-411e-4ea1-a98a-88e5ee4a1fa1">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f3bee19d-6c0e-49f2-88ec-768a73297a0c">
+            <TableID>dbo_DIM_ACTIVITY</TableID>
+            <ColumnID>activities</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4345245a-01a2-4cfa-9378-477f145188f9">
+      <ID>Nursery</ID>
+      <Name>Nursery</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9b9951b7-df9f-4e77-815e-3dfee998c714">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="338c37de-83da-4c8c-8098-fc2a41fbff85">
+            <TableID>dbo_DIM_ACTIVITY</TableID>
+            <ColumnID>nursery</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7c4db35b-d9e2-49b3-8611-2dcde865a89f">
+      <ID>Higher</ID>
+      <Name>Higher</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b6232b5f-6234-4626-beb7-556025b87bfe">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c2abb30e-7d80-4f9c-bb46-9e76d769ffb9">
+            <TableID>dbo_DIM_ACTIVITY</TableID>
+            <ColumnID>higher</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="088136e2-d1a8-45ec-8d84-f7c3dd44463d">
+      <ID>Internet</ID>
+      <Name>Internet</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e49e8bc0-7ef9-498f-8486-056cb9ebecda">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="10e1bb57-902f-40e4-8110-e4c2fc5d07a6">
+            <TableID>dbo_DIM_ACTIVITY</TableID>
+            <ColumnID>internet</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2d33349d-7266-4cbb-aa56-d02d647d5589">
+      <ID>Romantic</ID>
+      <Name>Romantic</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f06dd817-473e-4555-808b-657db0c6ff78">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7a3eea88-e2f0-4c8d-85e3-53afc25c1322">
+            <TableID>dbo_DIM_ACTIVITY</TableID>
+            <ColumnID>romantic</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="556f9c7c-8062-42f3-ad42-7070a90ccef4">
+      <ID>Freetime</ID>
+      <Name>Freetime</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="697ec08b-f048-4420-bd65-8bec3ba362bc">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b3105b3b-b4a7-4c49-8fb2-1007987a1b04">
+            <TableID>dbo_DIM_ACTIVITY</TableID>
+            <ColumnID>freetime</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f01f3d95-ba74-444d-96ea-686e8c88fcaf">
+      <ID>Goout</ID>
+      <Name>Goout</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6fabbf53-7abb-4c5d-9e99-0b637dfca4f0">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="66559c8f-750a-4125-b288-1c30b3476369">
+            <TableID>dbo_DIM_ACTIVITY</TableID>
+            <ColumnID>goout</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
